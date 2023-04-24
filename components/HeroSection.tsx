@@ -6,7 +6,7 @@ type Props = {};
 
 const HeroSection = (props: Props) => {
   return (
-    <section className="py-20 md:container md:max-w-screen-xl md:mx-auto grid grid-cols-1 md:grid-cols-2">
+    <section id="hero" className="py-20 md:container md:max-w-screen-xl md:mx-auto grid grid-cols-1 md:grid-cols-2">
       <article className="flex flex-col justify-center mx-5 md:mx-0 gap-y-10 md:pr-28 row-start-2 row-end-3 md:row-start-1 md:row-end-2">
         <h1 className="md:text-5xl md:text-left font-bold text-darkBlue text-4xl text-center">
           Bring everyone together to build better products.
